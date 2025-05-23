@@ -1,0 +1,13 @@
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.csprojAssemblyReference.cache
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.AssemblyInfoInputs.cache
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.AssemblyInfo.cs
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.csproj.CoreCompileInputs.cache
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.exe
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.deps.json
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.runtimeconfig.json
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.runtimeconfig.dev.json
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.dll
+D:\UnimarPos\SingletonApp\bin\Debug\netcoreapp3.1\SingletonApp.pdb
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.dll
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.pdb
+D:\UnimarPos\SingletonApp\obj\Debug\netcoreapp3.1\SingletonApp.genruntimeconfig.cache
