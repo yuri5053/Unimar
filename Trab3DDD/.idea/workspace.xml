@@ -1,34 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce4fb29b-c88d-49aa-9fdf-bcf57df08b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/use_cases/buscar_livros_use_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/use_cases/listar_emprestimos_use_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/database/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Trab3DDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trab3DDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/dtos/emprestimo_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/emprestimo_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/dtos/livro_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/livro_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/dtos/usuario_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/usuario_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/buscar_livro_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/criar_livro_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/use_cases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/criar_usuario_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/use_cases/criar_livro_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/devolver_livro_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/use_cases/criar_usuario_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/emprestar_livro_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/use_cases/devolver_livro_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/use_case/listar_emprestimos_use_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/use_cases/emprestar_livro_use_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/repositories/emprestimo_repositoriy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/repositories/emprestimo_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/repositories/usuario_repostory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/repositories/usuario_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/repositories/sqlalchemy_livro_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/repositories/sqlalchemy_livro_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/controllers/livro_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/controllers/livro_controller.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ypdvM8l18TbuRAa0f2EbicrsCi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.test_structure.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="test_structure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trab3DDD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_structure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_structure" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,8 +114,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750535679044</updated>
+      <workItem from="1750538637335" duration="1847000" />
+      <workItem from="1750540494820" duration="1994000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -51,6 +132,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Trab3DDD$test_structure.coverage" NAME="test_structure Coverage Results" MODIFIED="1750542046121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
