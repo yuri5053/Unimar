@@ -1,7 +1,7 @@
-from ..dtos.livro_dto import LivroDTO
-from ...domain.entities.livro import Livro
-from ...domain.value_objects.isbn import ISBN
-from ...domain.repositories.livro_repository import ILivroRepository
+from application.dtos.livro_dto import LivroDTO
+from domain.entities.livro import Livro
+from domain.value_objects.isbn import ISBN
+from domain.repositories.livro_repository import ILivroRepository
 
 
 class CriarLivroUseCase:

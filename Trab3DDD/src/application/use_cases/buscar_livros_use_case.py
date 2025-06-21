@@ -1,6 +1,6 @@
 from typing import List
-from ..dtos.livro_dto import LivroDTO
-from ...domain.repositories.livro_repository import ILivroRepository
+from application.dtos.livro_dto import LivroDTO
+from domain.repositories.livro_repository import ILivroRepository
 
 
 class BuscarLivrosUseCase:

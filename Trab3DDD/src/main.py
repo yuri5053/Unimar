@@ -1,8 +1,13 @@
+from src.presentation.controllers.user_controller import router as user_router
+from fastapi import FastAPI
 from flask import Flask, jsonify
 from flask_cors import CORS
-from infrastructure.database.config import init_database
-from presentation.controllers.livro_controller import livro_bp
+from src.infrastructure.database.config import init_database
+from src.presentation.controllers.livro_controller import livro_bp
 
+app = FastAPI()
+
+app.include_router(user_router)
 
 def create_app():
     """

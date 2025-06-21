@@ -1,7 +1,7 @@
-from ...domain.entities.emprestimo import Emprestimo
-from ...domain.repositories.livro_repository import ILivroRepository
-from ...domain.repositories.usuario_repository import IUsuarioRepository
-from ...domain.repositories.emprestimo_repository import IEmprestimoRepository
+from domain.entities.emprestimo import Emprestimo
+from domain.repositories.livro_repository import ILivroRepository
+from domain.repositories.usuario_repository import IUsuarioRepository
+from domain.repositories.emprestimo_repository import IEmprestimoRepository
 
 
 class EmprestarLivroUseCase:
