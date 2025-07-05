@@ -1,0 +1,22 @@
+# Docker Compose simplificado para desenvolvimento
+# Apenas a API com SQLite (mais simples para demonstração)
+
+version: '3.8'
+
+services:
+  # Serviço da API da Biblioteca
+  biblioteca-api:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - FLASK_ENV=development
+      - PYTHONPATH=/app
+    volumes:
+      - ./data:/app/src/database
+    restart: unless-stopped
+    container_name: biblioteca-api-container
+
+volumes:
+  data:
+

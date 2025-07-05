@@ -1,0 +1,55 @@
+# Docker Compose para a API da Biblioteca
+# Demonstração de orquestração de containers
+
+version: '3.8'
+
+services:
+  # Serviço da API
+  biblioteca-api:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - FLASK_ENV=production
+      - PYTHONPATH=/app
+    volumes:
+      - ./data:/app/src/database
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - biblioteca-network
+
+  # Banco de dados PostgreSQL (opcional - para demonstração)
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: biblioteca
+      POSTGRES_USER: biblioteca_user
+      POSTGRES_PASSWORD: biblioteca_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - biblioteca-network
+
+  # Adminer para gerenciar banco (opcional)
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - biblioteca-network
+
+volumes:
+  postgres_data:
+
+networks:
+  biblioteca-network:
+    driver: bridge
+
