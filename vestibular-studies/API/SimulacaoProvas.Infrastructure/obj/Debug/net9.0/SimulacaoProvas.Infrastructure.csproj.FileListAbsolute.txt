@@ -1,0 +1,17 @@
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.deps.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.runtimeconfig.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\bin\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.csproj.AssemblyReference.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.AssemblyInfoInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.AssemblyInfo.cs
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\Simulaca.7B7CE050.Up2Date
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\refint\SimulacaoProvas.Infrastructure.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\SimulacaoProvas.Infrastructure.genruntimeconfig.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Infrastructure\obj\Debug\net9.0\ref\SimulacaoProvas.Infrastructure.dll

@@ -1,0 +1,23 @@
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.deps.json
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.AssemblyInfoInputs.cache
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.AssemblyInfo.cs
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.csproj.CoreCompileInputs.cache
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\refint\SimulacaoProvas.Domain.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\ref\SimulacaoProvas.Domain.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.sourcelink.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.deps.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\bin\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.AssemblyInfoInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.AssemblyInfo.cs
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.csproj.CoreCompileInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\refint\SimulacaoProvas.Domain.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Domain\obj\Debug\net9.0\ref\SimulacaoProvas.Domain.dll

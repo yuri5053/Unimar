@@ -1,0 +1,255 @@
+Manual de Integração Front-End – API Simulação de Provas
+=========================================================
+
+1. AUTENTICAÇÃO
+---------------
+
+- Cadastro de usuário
+  - Endpoint: POST /api/Usuario/cadastro
+  - Descrição: Cria um novo usuário no sistema.
+  - Exemplo de requisição:
+    {
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "senha": "123456"
+    }
+  - Resposta de sucesso: Dados do usuário cadastrado.
+  - Observação: Não requer autenticação.
+
+- Login de usuário
+  - Endpoint: POST /api/Usuario/login
+  - Descrição: Autentica o usuário e retorna um token JWT.
+  - Exemplo de requisição:
+    {
+      "email": "joao@email.com",
+      "senha": "123456"
+    }
+  - Exemplo de resposta:
+    {
+      "token": "JWT_TOKEN_AQUI",
+      "usuario": {
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao@email.com"
+      }
+    }
+  - Observação: Guarde o token JWT. Ele será necessário para acessar os demais endpoints.
+
+- Como usar o token JWT:
+  - Em todas as requisições protegidas, envie o header:
+    Authorization: Bearer JWT_TOKEN_AQUI
+
+2. MATÉRIAS
+-----------
+
+- Listar matérias
+  - Endpoint: GET /api/Materia
+  - Descrição: Retorna todas as matérias cadastradas.
+  - Exemplo de resposta:
+    [
+      { "id": 1, "nome": "Matemática" },
+      { "id": 2, "nome": "História" }
+    ]
+  - Requer autenticação.
+
+- Criar matéria
+  - Endpoint: POST /api/Materia
+  - Descrição: Cria uma nova matéria.
+  - Exemplo de requisição:
+    { "nome": "Geografia" }
+  - Exemplo de resposta:
+    { "id": 3, "nome": "Geografia" }
+  - Requer autenticação.
+
+- Buscar matéria por ID
+  - Endpoint: GET /api/Materia/{id}
+  - Descrição: Retorna os dados de uma matéria específica.
+  - Exemplo de resposta:
+    { "id": 1, "nome": "Matemática" }
+  - Requer autenticação.
+
+- Atualizar matéria
+  - Endpoint: PUT /api/Materia/{id}
+  - Descrição: Atualiza os dados de uma matéria existente.
+  - Exemplo de requisição:
+    { "id": 1, "nome": "Matemática Avançada" }
+  - Resposta: 204 No Content (sem corpo)
+  - Requer autenticação.
+
+- Remover matéria
+  - Endpoint: DELETE /api/Materia/{id}
+  - Descrição: Remove uma matéria do sistema.
+  - Resposta: 204 No Content (sem corpo)
+  - Requer autenticação.
+
+3. QUESTÕES
+-----------
+
+- Listar questões
+  - Endpoint: GET /api/Questao
+  - Descrição: Retorna todas as questões cadastradas.
+  - Exemplo de resposta:
+    [
+      {
+        "id": 1,
+        "enunciado": "Qual a capital do Brasil?",
+        "opcoesJson": "[\"Brasília\",\"Rio\",\"SP\"]",
+        "opcaoCorreta": "Brasília",
+        "materiaId": 1
+      }
+    ]
+  - Requer autenticação.
+
+- Buscar questão por ID
+  - Endpoint: GET /api/Questao/{id}
+  - Descrição: Retorna os dados de uma questão específica.
+  - Exemplo de resposta:
+    {
+      "id": 1,
+      "enunciado": "Qual a capital do Brasil?",
+      "opcoesJson": "[\"Brasília\",\"Rio\",\"SP\"]",
+      "opcaoCorreta": "Brasília",
+      "materiaId": 1
+    }
+  - Requer autenticação.
+
+- Criar questão
+  - Endpoint: POST /api/Questao
+  - Descrição: Cria uma nova questão.
+  - Exemplo de requisição:
+    {
+      "enunciado": "Qual a capital do Brasil?",
+      "opcoesJson": "[\"Brasília\",\"Rio\",\"SP\"]",
+      "opcaoCorreta": "Brasília",
+      "materiaId": 1
+    }
+  - Exemplo de resposta:
+    {
+      "id": 2,
+      "enunciado": "Qual a capital do Brasil?",
+      "opcoesJson": "[\"Brasília\",\"Rio\",\"SP\"]",
+      "opcaoCorreta": "Brasília",
+      "materiaId": 1
+    }
+  - Requer autenticação.
+
+- Atualizar questão
+  - Endpoint: PUT /api/Questao/{id}
+  - Descrição: Atualiza os dados de uma questão existente.
+  - Exemplo de requisição:
+    {
+      "id": 1,
+      "enunciado": "Nova pergunta?",
+      "opcoesJson": "[\"Opção 1\",\"Opção 2\"]",
+      "opcaoCorreta": "Opção 1",
+      "materiaId": 1
+    }
+  - Resposta: 204 No Content (sem corpo)
+  - Requer autenticação.
+
+- Remover questão
+  - Endpoint: DELETE /api/Questao/{id}
+  - Descrição: Remove uma questão do sistema.
+  - Resposta: 204 No Content (sem corpo)
+  - Requer autenticação.
+
+4. RESPOSTAS
+------------
+
+- Responder questão
+  - Endpoint: POST /api/Resposta
+  - Descrição: Registra a resposta do usuário para uma questão.
+  - Exemplo de requisição:
+    {
+      "questaoId": 1,
+      "opcaoSelecionada": "Brasília"
+    }
+  - Exemplo de resposta:
+    {
+      "estaCorreta": true,
+      "respondidoEm": "2025-09-18T20:00:00Z"
+    }
+  - Requer autenticação.
+
+- Listar respostas do usuário
+  - Endpoint: GET /api/Resposta/usuario
+  - Descrição: Retorna todas as respostas do usuário autenticado.
+  - Exemplo de resposta:
+    [
+      {
+        "id": 1,
+        "usuarioId": 1,
+        "questaoId": 1,
+        "opcaoSelecionada": "Brasília",
+        "estaCorreta": true,
+        "respondidoEm": "2025-09-18T20:00:00Z"
+      }
+    ]
+  - Requer autenticação.
+
+5. ESTATÍSTICAS
+---------------
+
+- Obter estatísticas do usuário
+  - Endpoint: GET /api/Estatisticas
+  - Descrição: Retorna estatísticas de desempenho do usuário autenticado.
+  - Exemplo de resposta:
+    {
+      "total": 10,
+      "acertos": 7,
+      "erros": 3,
+      "percentualAcerto": 70.0
+    }
+  - Requer autenticação.
+
+6. OBSERVAÇÕES GERAIS
+---------------------
+
+- Todos os endpoints (exceto cadastro/login) exigem o token JWT no header Authorization.
+- Respostas de erro seguem o padrão HTTP (400, 401, 404, etc.) com mensagens claras.
+- O Swagger está disponível em /swagger para testes e visualização dos contratos.
+- Para dúvidas sobre o formato dos dados, consulte o Swagger ou peça exemplos detalhados.
+
+DICA: Sempre envie o header Authorization corretamente para evitar erros 401 (não autorizado).
+
+7. COMO RODAR O PROJETO (BACK-END)
+----------------------------------
+
+Pré-requisitos:
+- .NET 9 SDK instalado
+- MySQL Server instalado e rodando
+- (Opcional) Visual Studio ou VS Code
+
+Passos para rodar o projeto:
+
+1. Restaurar os pacotes:
+   No terminal, na pasta do projeto, execute:
+   dotnet restore
+
+2. Configurar a string de conexão:
+   - No arquivo appsettings.json da SimulacaoProvas.API, ajuste a string "DefaultConnection" para apontar para seu MySQL (usuário, senha, banco).
+
+3. Aplicar as migrations (criar o banco e tabelas):
+   dotnet ef database update --project SimulacaoProvas.Infrastructure --startup-project SimulacaoProvas.API
+
+   (Se quiser criar uma migration nova após alterar entidades, use:)
+   dotnet ef migrations add NomeDaMigration --project SimulacaoProvas.Infrastructure --startup-project SimulacaoProvas.API
+
+4. Build do projeto:
+   dotnet build SimulacaoProvas.sln
+
+5. Rodar a API:
+   dotnet run --project SimulacaoProvas.API
+
+6. Acessar o Swagger para testar endpoints:
+   http://localhost:PORTA/swagger
+   (A porta aparece no terminal ao rodar a API)
+
+Dicas:
+- Sempre rode o comando de migration após alterar entidades.
+- Se der erro de conexão, revise usuário/senha/porta do MySQL.
+- O log da aplicação aparece no terminal e no arquivo logs/app.log.
+- Para rodar comandos dotnet ef, pode ser necessário instalar o pacote global:
+  dotnet tool install --global dotnet-ef
+
+Se precisar resetar o banco, basta dropar o banco no MySQL e rodar o database update novamente.

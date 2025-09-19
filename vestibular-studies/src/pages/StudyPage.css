@@ -1,0 +1,168 @@
+.study-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.study-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.study-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 20px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.materias-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.materia-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+  border: 2px solid transparent;
+}
+
+.materia-card:hover {
+  border-color: #bbb;
+}
+
+.materia-card.selected {
+  border-color: #6c63ff;
+  background: #f0f0ff;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  color: #333;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-checkbox .checkmark {
+  width: 22px;
+  height: 22px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-right: 12px;
+  transition: 0.2s;
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.num-questoes-wrapper {
+  margin-top: 10px;
+}
+
+.input-field {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+}
+
+.small-input {
+  width: 100px;
+}
+
+.tempo-card {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+/* ================= Botões ================= */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; /* mais espaçamento do topo */
+  gap: 20px; /* separa os botões */
+}
+
+.btn-submit,
+.btn-logout {
+  flex: 1; /* ocupa a mesma largura */
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.btn-submit {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #574fd6;
+}
+
+.btn-logout {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #d32f2f;
+}

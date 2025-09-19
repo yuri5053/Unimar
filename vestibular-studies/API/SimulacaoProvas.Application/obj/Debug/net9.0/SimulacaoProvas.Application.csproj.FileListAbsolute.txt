@@ -1,0 +1,35 @@
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.deps.json
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.csproj.AssemblyReference.cache
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.AssemblyInfoInputs.cache
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.AssemblyInfo.cs
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.csproj.CoreCompileInputs.cache
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\Simulaca.21C385D7.Up2Date
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\refint\SimulacaoProvas.Application.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.pdb
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\ref\SimulacaoProvas.Application.dll
+D:\PosGraduacao\Aula 5\BackEnd\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.sourcelink.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.deps.json
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Application.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Domain.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Domain.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\bin\Debug\net9.0\SimulacaoProvas.Infrastructure.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.csproj.AssemblyReference.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.AssemblyInfoInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.AssemblyInfo.cs
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.csproj.CoreCompileInputs.cache
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\Simulaca.21C385D7.Up2Date
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\refint\SimulacaoProvas.Application.dll
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\SimulacaoProvas.Application.pdb
+D:\SuperTeste\vestibular-studies\API\SimulacaoProvas.Application\obj\Debug\net9.0\ref\SimulacaoProvas.Application.dll

@@ -1,0 +1,42 @@
+// src/components/Header.jsx
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+
+export default function Header() {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    navigate('/login');
+  };
+
+  return (
+    <header className="bg-indigo-600 text-white shadow-md">
+      <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
+        <Link to="/dashboard" className="text-2xl font-bold">
+          VestibularApp
+        </Link>
+        <nav className="space-x-4">
+          <Link
+            to="/dashboard"
+            className="hover:bg-indigo-500 px-3 py-2 rounded transition"
+          >
+            Dashboard
+          </Link>
+          <Link
+            to="/materias"
+            className="hover:bg-indigo-500 px-3 py-2 rounded transition"
+          >
+            Matérias
+          </Link>
+          <button
+            onClick={handleLogout}
+            className="bg-red-500 hover:bg-red-600 px-3 py-2 rounded transition"
+          >
+            Logout
+          </button>
+        </nav>
+      </div>
+    </header>
+  );
+}

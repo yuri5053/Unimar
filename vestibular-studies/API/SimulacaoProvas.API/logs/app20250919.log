@@ -1,0 +1,1034 @@
+2025-09-19 00:00:30.061 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:30.064 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:30.069 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:30.070 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:30.071 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 9.4922ms
+2025-09-19 00:00:30.072 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 7.7752ms
+2025-09-19 00:00:30.099 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:30.103 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:30.105 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:30.106 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:00:30.108 -03:00 [INF] Listando matérias
+2025-09-19 00:00:30.110 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:00:30.111 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.5013ms
+2025-09-19 00:00:30.112 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:30.113 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:30.115 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:30.116 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.4323ms
+2025-09-19 00:00:30.118 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:30.122 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:00:30.125 -03:00 [INF] Listando matérias
+2025-09-19 00:00:30.126 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:00:30.127 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.0692ms
+2025-09-19 00:00:30.129 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:30.130 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.8583ms
+2025-09-19 00:00:32.711 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:32.714 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:32.715 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:32.716 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:00:32.718 -03:00 [INF] Listando matérias
+2025-09-19 00:00:32.719 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:00:32.721 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.5789ms
+2025-09-19 00:00:32.722 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:00:32.725 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:32.722 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:32.726 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:32.727 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.2813ms
+2025-09-19 00:00:32.728 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:00:32.733 -03:00 [INF] Listando matérias
+2025-09-19 00:00:32.734 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:00:32.736 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.7289ms
+2025-09-19 00:00:32.737 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:00:32.738 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.8818ms
+2025-09-19 00:00:34.933 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:00:34.935 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:00:34.936 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:34.939 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:34.940 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 7.6995ms
+2025-09-19 00:00:34.941 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 5.669ms
+2025-09-19 00:00:34.982 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:00:34.985 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:34.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 4.3418ms
+2025-09-19 00:00:34.987 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:00:34.991 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:00:34.994 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:00:34.997 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 9.7139ms
+2025-09-19 00:00:35.001 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:01:51.989 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Questao - application/json 185
+2025-09-19 00:01:51.993 -03:00 [INF] CORS policy execution failed.
+2025-09-19 00:01:51.993 -03:00 [INF] Request origin http://localhost:5134 does not have permission to access the resource.
+2025-09-19 00:01:51.995 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:01:52.027 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:01:52.028 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Questao - 401 0 null 38.6451ms
+2025-09-19 00:02:16.164 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Questao - application/json 730
+2025-09-19 00:02:16.168 -03:00 [INF] CORS policy execution failed.
+2025-09-19 00:02:16.169 -03:00 [INF] Request origin http://localhost:5134 does not have permission to access the resource.
+2025-09-19 00:02:16.171 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:02:16.172 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:02:16.174 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Questao - 401 0 null 10.0185ms
+2025-09-19 00:02:50.312 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Questao - application/json 730
+2025-09-19 00:02:50.316 -03:00 [INF] CORS policy execution failed.
+2025-09-19 00:02:50.317 -03:00 [INF] Request origin http://localhost:5134 does not have permission to access the resource.
+2025-09-19 00:02:50.318 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:02:50.319 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:02:50.320 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Questao - 401 0 null 8.4355ms
+2025-09-19 00:03:09.598 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Questao - application/json 185
+2025-09-19 00:03:09.602 -03:00 [INF] CORS policy execution failed.
+2025-09-19 00:03:09.603 -03:00 [INF] Request origin http://localhost:5134 does not have permission to access the resource.
+2025-09-19 00:03:09.604 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:03:09.605 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:03:09.606 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Questao - 401 0 null 8.0456ms
+2025-09-19 00:05:16.188 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:05:16.188 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:05:16.191 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:05:16.193 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:05:16.194 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 6.4166ms
+2025-09-19 00:05:16.195 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 6.9415ms
+2025-09-19 00:05:16.207 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:05:16.210 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:05:16.212 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 4.661ms
+2025-09-19 00:05:16.215 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:05:16.217 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:05:16.220 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:05:16.221 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 3.5853ms
+2025-09-19 00:05:16.223 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:08:41.749 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:08:41.750 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:08:41.752 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:08:41.754 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:08:41.755 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 5.5816ms
+2025-09-19 00:08:41.756 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 6.0422ms
+2025-09-19 00:08:41.778 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:08:41.781 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:08:41.782 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 3.8277ms
+2025-09-19 00:08:41.783 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 00:08:41.784 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:08:41.786 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:08:41.789 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 6.57ms
+2025-09-19 00:08:41.792 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 00:11:51.182 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:11:51.184 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:11:51.185 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:11:51.186 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 4.7404ms
+2025-09-19 00:12:06.147 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:12:06.151 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:12:06.152 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:12:06.152 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 5.3097ms
+2025-09-19 00:12:46.173 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:12:46.177 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 00:12:46.178 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 00:12:46.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 6.5404ms
+2025-09-19 00:28:21.538 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 00:28:21.541 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.541 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.2923ms
+2025-09-19 00:28:21.544 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 51
+2025-09-19 00:28:21.546 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.547 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 00:28:21.547 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 00:28:21.588 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 00:28:21.650 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 00:28:21.652 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 103.535ms
+2025-09-19 00:28:21.654 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 00:28:21.655 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 111.0041ms
+2025-09-19 00:28:21.706 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:21.708 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:21.709 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.711 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.712 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 6.3038ms
+2025-09-19 00:28:21.713 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 4.8382ms
+2025-09-19 00:28:21.727 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:21.731 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.732 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 4.9335ms
+2025-09-19 00:28:21.733 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:21.736 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 00:28:21.739 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:21.742 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 8.545ms
+2025-09-19 00:28:21.745 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 00:28:28.481 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 00:28:28.481 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 00:28:28.484 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:28.487 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:28.488 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.497ms
+2025-09-19 00:28:28.489 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 7.6619ms
+2025-09-19 00:28:28.504 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:28:28.507 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:28.509 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:28:28.510 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:28:28.512 -03:00 [INF] Listando matérias
+2025-09-19 00:28:28.515 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 00:28:28.517 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:28:28.518 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 6.0962ms
+2025-09-19 00:28:28.519 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 00:28:28.520 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:28:28.523 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:28.524 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 20.2865ms
+2025-09-19 00:28:28.525 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:28:28.530 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 00:28:28.531 -03:00 [INF] Listando matérias
+2025-09-19 00:28:28.532 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 00:28:28.533 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.4287ms
+2025-09-19 00:28:28.535 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 00:28:28.536 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.5531ms
+2025-09-19 00:28:49.410 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:49.413 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:28:49.417 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:49.413 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:28:49.420 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 7.5746ms
+2025-09-19 00:28:49.421 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 11.0626ms
+2025-09-19 00:31:54.101 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/cadastro - null null
+2025-09-19 00:31:54.103 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:31:54.104 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/cadastro - 204 null null 3.0607ms
+2025-09-19 00:31:54.107 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/cadastro - application/json 53
+2025-09-19 00:31:54.109 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:31:54.110 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Cadastrar (SimulacaoProvas.API)'
+2025-09-19 00:31:54.114 -03:00 [INF] Route matched with {action = "Cadastrar", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Cadastrar(SimulacaoProvas.Application.DTOs.UsuarioCadastroDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 00:31:54.146 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `Usuarios` AS `u`
+    WHERE `u`.`Email` = @__dto_Email_0)
+2025-09-19 00:31:54.286 -03:00 [INF] Executed DbCommand (68ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Usuarios` (`CriadoEm`, `Email`, `Foto`, `Nome`, `ProvedorAutenticacao`, `SenhaHash`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Usuarios`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2025-09-19 00:31:54.328 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 00:31:54.329 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Cadastrar (SimulacaoProvas.API) in 214.1651ms
+2025-09-19 00:31:54.331 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Cadastrar (SimulacaoProvas.API)'
+2025-09-19 00:31:54.332 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/cadastro - 200 null application/json; charset=utf-8 224.6576ms
+2025-09-19 00:32:02.891 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 00:32:02.894 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:02.894 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.0529ms
+2025-09-19 00:32:02.898 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 00:32:02.902 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:02.903 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 00:32:02.903 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 00:32:02.907 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 00:32:02.970 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 00:32:02.973 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 67.3878ms
+2025-09-19 00:32:02.974 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 00:32:02.975 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 77.4113ms
+2025-09-19 00:32:03.046 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:32:03.049 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:03.050 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 3.5432ms
+2025-09-19 00:32:03.051 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 00:32:03.055 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:03.056 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 5.3282ms
+2025-09-19 00:32:03.057 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 00:32:03.062 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:03.063 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 5.7143ms
+2025-09-19 00:32:03.064 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 00:32:03.067 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 00:32:03.069 -03:00 [INF] CORS policy execution successful.
+2025-09-19 00:32:03.072 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 7.2916ms
+2025-09-19 00:32:03.074 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 01:03:28.569 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:03:28.571 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:28.572 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.006ms
+2025-09-19 01:03:28.574 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 38
+2025-09-19 01:03:28.576 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:28.577 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:28.578 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:03:28.583 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:03:28.623 -03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-09-19 01:03:28.626 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 46.6813ms
+2025-09-19 01:03:28.627 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:28.629 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 401 null text/plain; charset=utf-8 54.3497ms
+2025-09-19 01:03:37.900 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:03:37.902 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:37.903 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.1544ms
+2025-09-19 01:03:37.906 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 40
+2025-09-19 01:03:37.907 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:37.908 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:37.909 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:03:37.912 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:03:37.973 -03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-09-19 01:03:37.975 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 64.8467ms
+2025-09-19 01:03:37.976 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:37.977 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 401 null text/plain; charset=utf-8 71.2738ms
+2025-09-19 01:03:40.642 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 01:03:40.645 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:40.645 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:40.646 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:03:40.649 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:03:40.710 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 01:03:40.712 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 64.0361ms
+2025-09-19 01:03:40.713 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:03:40.714 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 71.8914ms
+2025-09-19 01:03:40.778 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 01:03:40.781 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:40.782 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 3.5252ms
+2025-09-19 01:03:40.783 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 01:03:40.787 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:40.788 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 5.0081ms
+2025-09-19 01:03:40.788 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 01:03:40.794 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:40.795 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 6.9093ms
+2025-09-19 01:03:40.796 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 01:03:40.798 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 01:03:40.800 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:03:40.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 6.8742ms
+2025-09-19 01:03:40.806 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 01:10:00.119 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:10:00.122 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.122 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.718ms
+2025-09-19 01:10:00.125 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 01:10:00.126 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.127 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:10:00.128 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:10:00.133 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:10:00.195 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 01:10:00.197 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 67.9525ms
+2025-09-19 01:10:00.199 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:10:00.200 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 75.1906ms
+2025-09-19 01:10:00.241 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 01:10:00.243 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - null null
+2025-09-19 01:10:00.243 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.246 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.246 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 5.505ms
+2025-09-19 01:10:00.247 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/questoes - 204 null null 3.7886ms
+2025-09-19 01:10:00.285 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 01:10:00.288 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 3.5825ms
+2025-09-19 01:10:00.292 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 01:10:00.296 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/questoes - null null
+2025-09-19 01:10:00.298 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:10:00.299 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/questoes - 404 0 null 3.4998ms
+2025-09-19 01:10:00.302 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/questoes, Response status code: 404
+2025-09-19 01:11:27.730 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:11:27.732 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.732 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 2.57ms
+2025-09-19 01:11:27.735 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 01:11:27.736 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.737 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:11:27.738 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:11:27.741 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:11:27.805 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 01:11:27.807 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 67.3545ms
+2025-09-19 01:11:27.808 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:11:27.809 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 74.3185ms
+2025-09-19 01:11:27.851 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:27.853 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:27.854 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.857 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.858 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.4514ms
+2025-09-19 01:11:27.859 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.0704ms
+2025-09-19 01:11:27.894 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:27.897 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.898 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:27.899 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:11:27.901 -03:00 [INF] Listando matérias
+2025-09-19 01:11:27.903 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 01:11:27.905 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:11:27.907 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 6.5513ms
+2025-09-19 01:11:27.908 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:27.909 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:27.911 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:27.912 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 18.2322ms
+2025-09-19 01:11:27.913 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:27.917 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:11:27.918 -03:00 [INF] Listando matérias
+2025-09-19 01:11:27.919 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:11:27.920 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.1446ms
+2025-09-19 01:11:27.922 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:27.923 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 15.5533ms
+2025-09-19 01:11:39.031 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:39.032 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:39.034 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:39.036 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:39.037 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.3151ms
+2025-09-19 01:11:39.038 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 5.7516ms
+2025-09-19 01:11:39.086 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:39.090 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:39.091 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:39.093 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:11:39.095 -03:00 [INF] Listando matérias
+2025-09-19 01:11:39.096 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:11:39.097 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.9648ms
+2025-09-19 01:11:39.098 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:11:39.098 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:39.101 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:11:39.102 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 15.6021ms
+2025-09-19 01:11:39.103 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:39.107 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:11:39.109 -03:00 [INF] Listando matérias
+2025-09-19 01:11:39.110 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:11:39.111 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.6302ms
+2025-09-19 01:11:39.113 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:11:39.114 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.0786ms
+2025-09-19 01:14:34.305 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:14:34.308 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:14:34.308 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 3.4719ms
+2025-09-19 01:14:34.311 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:14:34.313 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:14:34.313 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:14:34.314 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:14:34.316 -03:00 [INF] Listando matérias
+2025-09-19 01:14:34.316 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:14:34.317 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.8998ms
+2025-09-19 01:14:34.319 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:14:34.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 8.5344ms
+2025-09-19 01:19:12.197 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:19:12.199 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:19:12.202 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:19:12.203 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:19:12.205 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 7.601ms
+2025-09-19 01:19:12.206 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.663ms
+2025-09-19 01:19:12.222 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:19:12.225 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:19:12.226 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:19:12.227 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:19:12.229 -03:00 [INF] Listando matérias
+2025-09-19 01:19:12.230 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:19:12.231 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.7212ms
+2025-09-19 01:19:12.240 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:19:12.243 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:19:12.251 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:19:12.252 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 29.9199ms
+2025-09-19 01:19:12.253 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:19:12.258 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:19:12.260 -03:00 [INF] Listando matérias
+2025-09-19 01:19:12.262 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:19:12.263 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.2043ms
+2025-09-19 01:19:12.265 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:19:12.266 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 26.081ms
+2025-09-19 01:28:42.103 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:28:42.105 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.106 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 2.7876ms
+2025-09-19 01:28:42.108 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 01:28:42.110 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.111 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:28:42.111 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:28:42.117 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:28:42.178 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 01:28:42.180 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 67.7245ms
+2025-09-19 01:28:42.182 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:28:42.184 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 75.6095ms
+2025-09-19 01:28:42.224 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:28:42.226 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:28:42.226 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.229 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.230 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.2876ms
+2025-09-19 01:28:42.231 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 4.9123ms
+2025-09-19 01:28:42.268 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:28:42.272 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.273 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:28:42.274 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:28:42.276 -03:00 [INF] Listando matérias
+2025-09-19 01:28:42.278 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 01:28:42.280 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:28:42.282 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 5.7451ms
+2025-09-19 01:28:42.283 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:28:42.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:28:42.284 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 15.4347ms
+2025-09-19 01:28:42.286 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:28:42.291 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:28:42.292 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:28:42.294 -03:00 [INF] Listando matérias
+2025-09-19 01:28:42.294 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:28:42.296 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.5789ms
+2025-09-19 01:28:42.298 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:28:42.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.4781ms
+2025-09-19 01:29:05.315 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:29:05.317 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:05.318 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 3.5888ms
+2025-09-19 01:29:05.319 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:29:05.324 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:05.325 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 5.835ms
+2025-09-19 01:29:05.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:29:05.347 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:05.347 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 3.6875ms
+2025-09-19 01:29:05.350 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 01:29:05.360 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:29:05.363 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:05.364 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 3.4056ms
+2025-09-19 01:29:05.366 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 01:29:12.219 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:12.221 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:12.222 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:12.224 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:12.225 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.3382ms
+2025-09-19 01:29:12.226 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 5.4334ms
+2025-09-19 01:29:12.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:12.266 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:12.267 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:12.268 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:29:12.270 -03:00 [INF] Listando matérias
+2025-09-19 01:29:12.270 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:29:12.271 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.6959ms
+2025-09-19 01:29:12.272 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:12.273 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 10.4353ms
+2025-09-19 01:29:12.274 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:12.277 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:12.278 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:12.280 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:29:12.281 -03:00 [INF] Listando matérias
+2025-09-19 01:29:12.282 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:29:12.283 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.9963ms
+2025-09-19 01:29:12.285 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:12.286 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 11.7042ms
+2025-09-19 01:29:15.235 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2/questoes - null null
+2025-09-19 01:29:15.237 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2/questoes - null null
+2025-09-19 01:29:15.239 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:15.240 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:15.241 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2/questoes - 204 null null 5.95ms
+2025-09-19 01:29:15.242 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2/questoes - 204 null null 4.4433ms
+2025-09-19 01:29:15.285 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2/questoes - null null
+2025-09-19 01:29:15.288 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:15.290 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2/questoes - 404 0 null 4.9994ms
+2025-09-19 01:29:15.293 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2/questoes, Response status code: 404
+2025-09-19 01:29:15.295 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2/questoes - null null
+2025-09-19 01:29:15.297 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:15.299 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2/questoes - 404 0 null 4.0657ms
+2025-09-19 01:29:15.303 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2/questoes, Response status code: 404
+2025-09-19 01:29:17.698 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:17.699 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:17.701 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:17.703 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:17.704 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.2397ms
+2025-09-19 01:29:17.705 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 5.7435ms
+2025-09-19 01:29:17.743 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:17.747 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:17.748 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:17.749 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:29:17.751 -03:00 [INF] Listando matérias
+2025-09-19 01:29:17.752 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:29:17.753 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.9632ms
+2025-09-19 01:29:17.753 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:29:17.754 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:17.757 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:29:17.758 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 14.6694ms
+2025-09-19 01:29:17.758 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:17.762 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:29:17.764 -03:00 [INF] Listando matérias
+2025-09-19 01:29:17.765 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:29:17.767 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.2281ms
+2025-09-19 01:29:17.769 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:29:17.770 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.0764ms
+2025-09-19 01:43:44.630 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:43:44.631 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:43:44.633 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:43:44.635 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:43:44.636 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 204 null null 6.0111ms
+2025-09-19 01:43:44.637 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 204 null null 5.8874ms
+2025-09-19 01:43:44.666 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:43:44.668 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:43:44.670 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 404 0 null 3.9082ms
+2025-09-19 01:43:44.673 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes, Response status code: 404
+2025-09-19 01:43:44.678 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:43:44.681 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:43:44.682 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 404 0 null 3.4233ms
+2025-09-19 01:43:44.685 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes, Response status code: 404
+2025-09-19 01:44:02.140 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:44:02.142 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:44:02.143 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 3.0856ms
+2025-09-19 01:44:02.143 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:44:02.148 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:44:02.149 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 5.5428ms
+2025-09-19 01:44:02.179 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:44:02.182 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:44:02.183 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:44:02.184 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:44:02.186 -03:00 [INF] Listando matérias
+2025-09-19 01:44:02.191 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 01:44:02.193 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:44:02.195 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 8.8292ms
+2025-09-19 01:44:02.196 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:44:02.196 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:44:02.199 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:44:02.200 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 21.416ms
+2025-09-19 01:44:02.201 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:44:02.205 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:44:02.207 -03:00 [INF] Listando matérias
+2025-09-19 01:44:02.209 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:44:02.210 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.1417ms
+2025-09-19 01:44:02.212 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:44:02.214 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 18.2637ms
+2025-09-19 01:45:16.726 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:45:16.729 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:16.730 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.4699ms
+2025-09-19 01:45:16.734 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 40
+2025-09-19 01:45:16.736 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:16.737 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:45:16.738 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:45:16.741 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:45:16.743 -03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-09-19 01:45:16.744 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 4.6782ms
+2025-09-19 01:45:16.745 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:45:16.746 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 401 null text/plain; charset=utf-8 12.6221ms
+2025-09-19 01:45:25.516 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 01:45:25.518 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.519 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 2.2764ms
+2025-09-19 01:45:25.521 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 01:45:25.523 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.524 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:45:25.525 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 01:45:25.527 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 01:45:25.589 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 01:45:25.591 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 65.1265ms
+2025-09-19 01:45:25.593 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 01:45:25.594 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 72.6058ms
+2025-09-19 01:45:25.660 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:45:25.662 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:45:25.663 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.666 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.666 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.6814ms
+2025-09-19 01:45:25.667 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 4.5424ms
+2025-09-19 01:45:25.680 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:45:25.683 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.684 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:45:25.685 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:45:25.688 -03:00 [INF] Listando matérias
+2025-09-19 01:45:25.689 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:45:25.691 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.6333ms
+2025-09-19 01:45:25.692 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:45:25.693 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:45:25.696 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:25.697 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.4912ms
+2025-09-19 01:45:25.698 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:45:25.702 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:45:25.704 -03:00 [INF] Listando matérias
+2025-09-19 01:45:25.705 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:45:25.707 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.5228ms
+2025-09-19 01:45:25.708 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:45:25.710 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.7669ms
+2025-09-19 01:45:40.819 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:45:40.822 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:40.823 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 204 null null 3.963ms
+2025-09-19 01:45:40.823 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:45:40.829 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:40.829 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 204 null null 6.3247ms
+2025-09-19 01:45:40.860 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:45:40.863 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:40.864 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 404 0 null 4.0158ms
+2025-09-19 01:45:40.866 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - null null
+2025-09-19 01:45:40.866 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes, Response status code: 404
+2025-09-19 01:45:40.869 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:45:40.871 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes - 404 0 null 5.1028ms
+2025-09-19 01:45:40.874 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1,2,3,4,5/questoes, Response status code: 404
+2025-09-19 01:46:14.145 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:46:14.148 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:46:14.148 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:46:14.149 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 4.0501ms
+2025-09-19 01:46:14.152 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:46:14.156 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 8.0368ms
+2025-09-19 01:46:14.185 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:46:14.188 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:46:14.189 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:46:14.192 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:46:14.194 -03:00 [INF] Listando matérias
+2025-09-19 01:46:14.195 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:46:14.196 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.8201ms
+2025-09-19 01:46:14.197 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:46:14.198 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 13.7383ms
+2025-09-19 01:46:14.204 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:46:14.206 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:46:14.207 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:46:14.209 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:46:14.210 -03:00 [INF] Listando matérias
+2025-09-19 01:46:14.212 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:46:14.213 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.0099ms
+2025-09-19 01:46:14.215 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:46:14.216 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 12.5025ms
+2025-09-19 01:56:45.867 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:56:45.871 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.872 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 5.0245ms
+2025-09-19 01:56:45.881 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:56:45.882 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/4/questoes - null null
+2025-09-19 01:56:45.882 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 01:56:45.883 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.886 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.887 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:56:45.887 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:56:45.889 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.890 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 9.0741ms
+2025-09-19 01:56:45.891 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/4/questoes - 204 null null 9.2354ms
+2025-09-19 01:56:45.894 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.897 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.898 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - 204 null null 16.4956ms
+2025-09-19 01:56:45.902 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 01:56:45.906 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/4/questoes - null null
+2025-09-19 01:56:45.907 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 20.1145ms
+2025-09-19 01:56:45.907 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 20.0478ms
+2025-09-19 01:56:45.913 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.915 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.919 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:56:45.922 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - 204 null null 19.5172ms
+2025-09-19 01:56:45.922 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/4/questoes - 204 null null 16.5856ms
+2025-09-19 01:56:45.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:56:45.925 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - null null
+2025-09-19 01:56:45.925 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.932 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 01:56:45.933 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.936 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.937 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 17.7889ms
+2025-09-19 01:56:45.937 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:56:45.939 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.940 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 15.6341ms
+2025-09-19 01:56:45.941 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - 404 0 null 16.235ms
+2025-09-19 01:56:45.941 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:56:45.944 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 01:56:45.946 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.947 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - 404 0 null 14.774ms
+2025-09-19 01:56:45.950 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 01:56:45.953 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/4/questoes, Response status code: 404
+2025-09-19 01:56:45.956 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.958 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - null null
+2025-09-19 01:56:45.959 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 21.1461ms
+2025-09-19 01:56:45.961 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/3/questoes, Response status code: 404
+2025-09-19 01:56:45.964 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 01:56:45.965 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 24.2483ms
+2025-09-19 01:56:45.967 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.971 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 01:56:45.975 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:56:45.978 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 01:56:45.979 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - 404 0 null 21.0736ms
+2025-09-19 01:56:45.981 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - 404 0 null 16.7043ms
+2025-09-19 01:56:45.985 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/4/questoes, Response status code: 404
+2025-09-19 01:56:45.988 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/3/questoes, Response status code: 404
+2025-09-19 01:58:59.388 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:58:59.388 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 01:58:59.390 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:58:59.393 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:58:59.394 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.3726ms
+2025-09-19 01:58:59.395 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.9232ms
+2025-09-19 01:58:59.438 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:58:59.441 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:58:59.443 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:58:59.444 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:58:59.446 -03:00 [INF] Listando matérias
+2025-09-19 01:58:59.450 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 01:58:59.453 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:58:59.454 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 8.6808ms
+2025-09-19 01:58:59.455 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 01:58:59.456 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:58:59.458 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:58:59.459 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 20.7002ms
+2025-09-19 01:58:59.460 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:58:59.464 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 01:58:59.466 -03:00 [INF] Listando matérias
+2025-09-19 01:58:59.467 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 01:58:59.469 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.4479ms
+2025-09-19 01:58:59.470 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 01:58:59.471 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.3145ms
+2025-09-19 01:59:04.326 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:59:04.328 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:59:04.330 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.330 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:59:04.330 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:59:04.333 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.334 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 7.365ms
+2025-09-19 01:59:04.337 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.341 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.343 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 14.8137ms
+2025-09-19 01:59:04.347 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 16.6329ms
+2025-09-19 01:59:04.347 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 16.8921ms
+2025-09-19 01:59:04.377 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:59:04.378 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:59:04.380 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.382 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.383 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 5.6918ms
+2025-09-19 01:59:04.383 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 4.7575ms
+2025-09-19 01:59:04.384 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 01:59:04.384 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 01:59:04.387 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 01:59:04.391 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 01:59:04.393 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.396 -03:00 [INF] CORS policy execution successful.
+2025-09-19 01:59:04.400 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 15.6686ms
+2025-09-19 01:59:04.401 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 16.4293ms
+2025-09-19 01:59:04.404 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 01:59:04.408 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 02:02:20.492 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - null null
+2025-09-19 02:02:20.494 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - 404 0 null 1.904ms
+2025-09-19 02:02:20.497 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/Materia/1/questoes, Response status code: 404
+2025-09-19 02:02:23.935 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - null null
+2025-09-19 02:02:23.938 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - 404 0 null 2.7478ms
+2025-09-19 02:02:23.941 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/Materia/1/questoes, Response status code: 404
+2025-09-19 02:02:45.600 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - null null
+2025-09-19 02:02:45.604 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/Materia/1/questoes - 404 0 null 3.962ms
+2025-09-19 02:02:45.607 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/Materia/1/questoes, Response status code: 404
+2025-09-19 02:04:15.900 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/ - null null
+2025-09-19 02:04:15.903 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/ - 404 0 null 2.2978ms
+2025-09-19 02:04:15.905 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/, Response status code: 404
+2025-09-19 02:07:36.602 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/swagger-ui.css - null null
+2025-09-19 02:07:36.603 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/index.css - null null
+2025-09-19 02:07:36.634 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/index.css - 200 152 text/css 30.836ms
+2025-09-19 02:07:36.634 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/swagger-ui.css - 200 23647 text/css 31.7215ms
+2025-09-19 02:07:48.150 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:07:48.153 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:07:48.154 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 4.0595ms
+2025-09-19 02:07:48.158 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:07:48.161 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:07:48.163 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 4.2737ms
+2025-09-19 02:07:48.188 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:07:48.192 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:07:48.193 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:07:48.194 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:07:48.197 -03:00 [INF] Listando matérias
+2025-09-19 02:07:48.198 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:07:48.200 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.4731ms
+2025-09-19 02:07:48.202 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:07:48.203 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 15.0306ms
+2025-09-19 02:07:48.212 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:07:48.215 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:07:48.216 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:07:48.218 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:07:48.220 -03:00 [INF] Listando matérias
+2025-09-19 02:07:48.222 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:07:48.223 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 3.1133ms
+2025-09-19 02:07:48.225 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:07:48.227 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 14.6523ms
+2025-09-19 02:08:26.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:08:26.297 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 02:08:26.299 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 02:08:26.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 6.4616ms
+2025-09-19 02:08:32.858 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:08:32.862 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 02:08:32.863 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 02:08:32.864 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 6.2073ms
+2025-09-19 02:10:23.540 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:10:23.541 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:10:23.543 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:10:23.545 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:10:23.546 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.3786ms
+2025-09-19 02:10:23.547 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.5594ms
+2025-09-19 02:10:23.558 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:10:23.560 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:10:23.562 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:10:23.563 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:10:23.565 -03:00 [INF] Listando matérias
+2025-09-19 02:10:23.569 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 02:10:23.572 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:10:23.574 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 9.1375ms
+2025-09-19 02:10:23.575 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:10:23.575 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:10:23.579 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:10:23.580 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 22.0862ms
+2025-09-19 02:10:23.581 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:10:23.585 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:10:23.587 -03:00 [INF] Listando matérias
+2025-09-19 02:10:23.588 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:10:23.589 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.1822ms
+2025-09-19 02:10:23.590 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:10:23.591 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 16.8416ms
+2025-09-19 02:11:48.748 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:11:48.752 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:11:48.752 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:11:48.754 -03:00 [INF] Listando matérias
+2025-09-19 02:11:48.755 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:11:48.756 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.8003ms
+2025-09-19 02:11:48.757 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:11:48.758 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 10.1833ms
+2025-09-19 02:15:22.674 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:15:22.676 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 1.9432ms
+2025-09-19 02:15:22.678 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 02:16:06.607 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:16:06.611 -03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'JDFYuDeafFr2GvgRz-JuZbEidCpXT1Y_s2TycHmsPbY'. , KeyId: 
+'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-19 02:16:06.628 -03:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'JDFYuDeafFr2GvgRz-JuZbEidCpXT1Y_s2TycHmsPbY'. , KeyId: 
+'.
+Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'.
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-09-19 02:16:06.629 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 02:16:06.630 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 02:16:06.631 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 401 0 null 24.5797ms
+2025-09-19 02:16:25.517 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:16:25.519 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:16:25.520 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:16:25.522 -03:00 [INF] Listando matérias
+2025-09-19 02:16:25.523 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:16:25.524 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.1979ms
+2025-09-19 02:16:25.525 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:16:25.526 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 9.0332ms
+2025-09-19 02:18:22.066 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:18:22.068 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 2.118ms
+2025-09-19 02:18:22.070 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 02:18:22.085 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 02:18:22.087 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 1.831ms
+2025-09-19 02:18:22.089 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 02:18:22.093 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 02:18:22.095 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - 404 0 null 2.1842ms
+2025-09-19 02:18:22.098 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/3/questoes, Response status code: 404
+2025-09-19 02:18:22.101 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - null null
+2025-09-19 02:18:22.103 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/4/questoes - 404 0 null 1.8242ms
+2025-09-19 02:18:22.105 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/4/questoes, Response status code: 404
+2025-09-19 02:18:22.110 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/5/questoes - null null
+2025-09-19 02:18:22.111 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/5/questoes - 404 0 null 1.8508ms
+2025-09-19 02:18:22.114 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/5/questoes, Response status code: 404
+2025-09-19 02:19:00.264 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:19:00.266 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:19:00.267 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:19:00.268 -03:00 [INF] Listando matérias
+2025-09-19 02:19:00.269 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:19:00.270 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 1.7636ms
+2025-09-19 02:19:00.271 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:19:00.272 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 7.7313ms
+2025-09-19 02:19:59.420 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:19:59.423 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:19:59.424 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:19:59.425 -03:00 [INF] Listando matérias
+2025-09-19 02:19:59.426 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:19:59.427 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.0578ms
+2025-09-19 02:19:59.428 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:19:59.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 9.4399ms
+2025-09-19 02:22:06.049 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - null null
+2025-09-19 02:22:06.052 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.053 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Usuario/login - 204 null null 3.3504ms
+2025-09-19 02:22:06.055 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/Usuario/login - application/json 39
+2025-09-19 02:22:06.057 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.057 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 02:22:06.058 -03:00 [INF] Route matched with {action = "Login", controller = "Usuario"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(SimulacaoProvas.Application.DTOs.UsuarioLoginDTO) on controller SimulacaoProvas.API.Controllers.UsuarioController (SimulacaoProvas.API).
+2025-09-19 02:22:06.063 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`CriadoEm`, `u`.`Email`, `u`.`Foto`, `u`.`Nome`, `u`.`ProvedorAutenticacao`, `u`.`SenhaHash`
+FROM `Usuarios` AS `u`
+WHERE `u`.`Email` = @__dto_Email_0
+LIMIT 1
+2025-09-19 02:22:06.165 -03:00 [INF] Executing OkObjectResult, writing value of type 'SimulacaoProvas.Application.DTOs.UsuarioRespostaDTO'.
+2025-09-19 02:22:06.167 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API) in 107.5421ms
+2025-09-19 02:22:06.168 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.UsuarioController.Login (SimulacaoProvas.API)'
+2025-09-19 02:22:06.169 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/Usuario/login - 200 null application/json; charset=utf-8 113.9715ms
+2025-09-19 02:22:06.212 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:22:06.214 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - null null
+2025-09-19 02:22:06.215 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.217 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.218 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 6.106ms
+2025-09-19 02:22:06.219 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia - 204 null null 5.2067ms
+2025-09-19 02:22:06.266 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:22:06.269 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.270 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:22:06.271 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:22:06.273 -03:00 [INF] Listando matérias
+2025-09-19 02:22:06.275 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`Nome`
+FROM `Materias` AS `m`
+2025-09-19 02:22:06.277 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:22:06.278 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 5.4456ms
+2025-09-19 02:22:06.279 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia - null null
+2025-09-19 02:22:06.280 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:22:06.282 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:06.283 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.0968ms
+2025-09-19 02:22:06.285 -03:00 [INF] Executing endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:22:06.289 -03:00 [INF] Route matched with {action = "Listar", controller = "Materia"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Listar() on controller SimulacaoProvas.API.Controllers.MateriaController (SimulacaoProvas.API).
+2025-09-19 02:22:06.291 -03:00 [INF] Listando matérias
+2025-09-19 02:22:06.292 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SimulacaoProvas.Domain.Entities.Materia, SimulacaoProvas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 02:22:06.293 -03:00 [INF] Executed action SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API) in 2.7146ms
+2025-09-19 02:22:06.295 -03:00 [INF] Executed endpoint 'SimulacaoProvas.API.Controllers.MateriaController.Listar (SimulacaoProvas.API)'
+2025-09-19 02:22:06.297 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia - 200 null application/json; charset=utf-8 17.5018ms
+2025-09-19 02:22:25.234 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:22:25.237 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.239 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 4.5139ms
+2025-09-19 02:22:25.241 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 02:22:25.245 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 02:22:25.246 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:22:25.246 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.246 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 02:22:25.246 -03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 02:22:25.249 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.251 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.251 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 10.0623ms
+2025-09-19 02:22:25.254 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.256 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.257 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - 204 null null 11.5241ms
+2025-09-19 02:22:25.257 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/1/questoes - 204 null null 11.5044ms
+2025-09-19 02:22:25.260 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/2/questoes - 204 null null 14.4203ms
+2025-09-19 02:22:25.261 -03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5134/api/Materia/3/questoes - 204 null null 14.9626ms
+2025-09-19 02:22:25.289 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:22:25.293 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 02:22:25.294 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 4.5157ms
+2025-09-19 02:22:25.296 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.299 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 02:22:25.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 6.3091ms
+2025-09-19 02:22:25.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 02:22:25.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - null null
+2025-09-19 02:22:25.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - null null
+2025-09-19 02:22:25.305 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 02:22:25.309 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.311 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.315 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.318 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - 404 0 null 18.5604ms
+2025-09-19 02:22:25.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/1/questoes - 404 0 null 18.9495ms
+2025-09-19 02:22:25.319 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - null null
+2025-09-19 02:22:25.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/2/questoes - 404 0 null 19.4085ms
+2025-09-19 02:22:25.323 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/3/questoes, Response status code: 404
+2025-09-19 02:22:25.326 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/1/questoes, Response status code: 404
+2025-09-19 02:22:25.329 -03:00 [INF] CORS policy execution successful.
+2025-09-19 02:22:25.331 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/2/questoes, Response status code: 404
+2025-09-19 02:22:25.336 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/Materia/3/questoes - 404 0 null 16.7398ms
+2025-09-19 02:22:25.340 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5134/api/Materia/3/questoes, Response status code: 404
+2025-09-19 02:50:40.015 -03:00 [INF] Application is shutting down...
