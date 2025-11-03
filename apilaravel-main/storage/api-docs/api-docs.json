@@ -1,0 +1,702 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de Biblioteca",
+        "description": "Documentação da API do projeto de pós-graduação",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/login": {
+            "post": {
+                "tags": [
+                    "Autenticação"
+                ],
+                "summary": "Autentica o usuário e retorna um token",
+                "operationId": "a3b306d14572d1f4bd6c064b3233e7b8",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "admin@example.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "format": "password",
+                                        "example": "password"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Login bem-sucedido",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "access_token": {
+                                            "type": "string"
+                                        },
+                                        "token_type": {
+                                            "type": "string",
+                                            "example": "bearer"
+                                        },
+                                        "expires_in": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Não autorizado"
+                    }
+                }
+            }
+        },
+        "/api/me": {
+            "post": {
+                "tags": [
+                    "Autenticação"
+                ],
+                "summary": "Retorna os dados do usuário autenticado",
+                "operationId": "3fc3f2f762fb3c5ecf211fcb0d4f81ff",
+                "responses": {
+                    "200": {
+                        "description": "Dados do usuário"
+                    },
+                    "401": {
+                        "description": "Não autorizado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/logout": {
+            "post": {
+                "tags": [
+                    "Autenticação"
+                ],
+                "summary": "Desloga o usuário (invalida o token)",
+                "operationId": "fe8f3429cd6979b3b4517e186505f9f9",
+                "responses": {
+                    "200": {
+                        "description": "Logout bem-sucedido"
+                    },
+                    "401": {
+                        "description": "Não autorizado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/autores": {
+            "get": {
+                "tags": [
+                    "Autores"
+                ],
+                "summary": "Lista todos os autores",
+                "description": "Retorna uma lista de autores",
+                "operationId": "getAutoresList",
+                "responses": {
+                    "200": {
+                        "description": "Operação bem-sucedida",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Autor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Não autorizado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "Autores"
+                ],
+                "summary": "Cria um novo autor",
+                "description": "Cria um novo autor e o retorna",
+                "operationId": "storeAutor",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "nome"
+                                ],
+                                "properties": {
+                                    "nome": {
+                                        "type": "string",
+                                        "example": "Machado de Assis"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Autor criado com sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Autor"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Erro de validação"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/autores/{id}": {
+            "get": {
+                "tags": [
+                    "Autores"
+                ],
+                "summary": "Obtém um autor específico",
+                "description": "Retorna os dados de um autor",
+                "operationId": "getAutorById",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Autor",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Operação bem-sucedida",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Autor"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Autor não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Autores"
+                ],
+                "summary": "Atualiza um autor existente",
+                "description": "Atualiza os dados de um autor e o retorna",
+                "operationId": "updateAutor",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Autor",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "nome": {
+                                        "type": "string",
+                                        "example": "Clarice Lispector"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Autor atualizado com sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Autor"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Autor não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Autores"
+                ],
+                "summary": "Deleta um autor",
+                "description": "Deleta um autor existente",
+                "operationId": "deleteAutor",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Autor",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Autor deletado com sucesso"
+                    },
+                    "404": {
+                        "description": "Autor não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/livros": {
+            "get": {
+                "tags": [
+                    "Livros"
+                ],
+                "summary": "Lista todos os livros",
+                "description": "Retorna uma lista de livros",
+                "operationId": "getLivrosList",
+                "responses": {
+                    "200": {
+                        "description": "Operação bem-sucedida",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Livro"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "Livros"
+                ],
+                "summary": "Cria um novo livro",
+                "description": "Cria um novo livro e o retorna",
+                "operationId": "storeLivro",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "titulo",
+                                    "autor_id",
+                                    "categoria_id"
+                                ],
+                                "properties": {
+                                    "titulo": {
+                                        "type": "string",
+                                        "example": "Dom Casmurro"
+                                    },
+                                    "autor_id": {
+                                        "type": "integer",
+                                        "example": 1
+                                    },
+                                    "categoria_id": {
+                                        "type": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Livro criado com sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Livro"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Erro de validação"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        },
+        "/api/livros/{id}": {
+            "get": {
+                "tags": [
+                    "Livros"
+                ],
+                "summary": "Obtém um livro específico",
+                "description": "Retorna os dados de um livro",
+                "operationId": "getLivroById",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Livro",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Operação bem-sucedida",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Livro"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Livro não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Livros"
+                ],
+                "summary": "Atualiza um livro existente",
+                "description": "Atualiza os dados de um livro e o retorna",
+                "operationId": "updateLivro",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Livro",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "titulo": {
+                                        "type": "string",
+                                        "example": "Memórias Póstumas de Brás Cubas"
+                                    },
+                                    "autor_id": {
+                                        "type": "integer",
+                                        "example": 1
+                                    },
+                                    "categoria_id": {
+                                        "type": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Livro atualizado com sucesso",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Livro"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Livro não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Livros"
+                ],
+                "summary": "Deleta um livro",
+                "description": "Deleta um livro existente",
+                "operationId": "deleteLivro",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID do Livro",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Livro deletado com sucesso"
+                    },
+                    "404": {
+                        "description": "Livro não encontrado"
+                    }
+                },
+                "security": [
+                    {
+                        "apiAuth": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Autor": {
+                "title": "Autor",
+                "required": [
+                    "nome"
+                ],
+                "properties": {
+                    "id": {
+                        "description": "ID do autor",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "nome": {
+                        "description": "Nome do autor",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Categoria": {
+                "title": "Categoria",
+                "required": [
+                    "nome"
+                ],
+                "properties": {
+                    "id": {
+                        "description": "ID da categoria",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "nome": {
+                        "description": "Nome da categoria",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "Emprestimo": {
+                "title": "Emprestimo",
+                "required": [
+                    "user_id",
+                    "livro_id",
+                    "data_emprestimo"
+                ],
+                "properties": {
+                    "id": {
+                        "description": "ID do empréstimo",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "user_id": {
+                        "description": "ID do usuário que pegou o livro",
+                        "type": "integer"
+                    },
+                    "livro_id": {
+                        "description": "ID do livro emprestado",
+                        "type": "integer"
+                    },
+                    "data_emprestimo": {
+                        "description": "Data em que o empréstimo foi feito",
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "data_devolucao": {
+                        "description": "Data em que o livro foi devolvido",
+                        "type": "string",
+                        "format": "date"
+                    }
+                },
+                "type": "object"
+            },
+            "Livro": {
+                "title": "Livro",
+                "required": [
+                    "titulo",
+                    "autor_id",
+                    "categoria_id"
+                ],
+                "properties": {
+                    "id": {
+                        "description": "ID do livro",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "titulo": {
+                        "description": "Título do livro",
+                        "type": "string"
+                    },
+                    "autor_id": {
+                        "description": "ID do autor do livro",
+                        "type": "integer"
+                    },
+                    "categoria_id": {
+                        "description": "ID da categoria do livro",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "User": {
+                "title": "User",
+                "required": [
+                    "name",
+                    "email",
+                    "password"
+                ],
+                "properties": {
+                    "id": {
+                        "description": "ID do usuário",
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "name": {
+                        "description": "Nome do usuário",
+                        "type": "string"
+                    },
+                    "email": {
+                        "description": "Email do usuário",
+                        "type": "string",
+                        "format": "email"
+                    },
+                    "type": {
+                        "description": "Tipo de usuário (admin ou student)",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "securitySchemes": {
+            "apiAuth": {
+                "type": "http",
+                "description": "Login com email e senha para obter o token de acesso",
+                "name": "Token based Based",
+                "in": "header",
+                "bearerFormat": "JWT",
+                "scheme": "bearer"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Autores",
+            "description": "Endpoints para gerenciar autores"
+        },
+        {
+            "name": "Livros",
+            "description": "Endpoints para gerenciar livros"
+        },
+        {
+            "name": "Autenticação",
+            "description": "Autenticação"
+        }
+    ]
+}
